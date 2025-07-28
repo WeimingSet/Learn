@@ -14,7 +14,7 @@ git config --global user.email 2325870306@qq.com
 git config --list #查看配置信息
 ```
 
-![创建SSH密钥](https://github.com/WeimingSet/Learn/blob/master/git学习/image/截图 2025-07-28 21-21-21.png)
+![创建SSH密钥](https://github.com/WeimingSet/Learn/blob/master/git学习/image/密钥创建.png)
 
 ### gitub配置
 
@@ -28,7 +28,7 @@ cat xxxx/.ssh/id_rsa.pub
 
 ####  创建仓库
 
-![创建新仓库](https://github.com/WeimingSet/Learn/blob/master/git学习/image/截图 2025-07-28 22-07-39.png)
+![创建新仓库](https://github.com/WeimingSet/Learn/blob/master/git学习/image/仓库创建.png)
 
 ## 2. 工作区、暂存区、版本库
 
