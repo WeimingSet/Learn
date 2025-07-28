@@ -91,3 +91,11 @@ git diff --cached #查看暂存区与最后一次提交的差异
 推送标签到远程仓库：`git push origion <tagname>`
 
 推送所有标签：`git tag origin --tag`
+
+## 6. 远程仓库与本地仓库出现冲突
+
+远程仓库多了一个文件
+
+`git pull origin master --no-rebase`合并本地与远程文件，告诉git冲突已解决`git add <confitfilename>`
+
+`git commit -m '冲突解决'`，重新提交`git push origin master`
