@@ -14,11 +14,21 @@ git config --global user.email 2325870306@qq.com
 git config --list #查看配置信息
 ```
 
-![创建SSH密钥](assets/learning file/git学习/image/截图 2025-07-28 21-21-21.png)
+![创建SSH密钥](https://github.com/WeimingSet/Learn/blob/master/git学习/image/截图 2025-07-28 21-21-21.png)
 
+### gitub配置
 
+setting &longrightarrow; SSH&GPG key &longrightarrow;  New SSH key
 
+```
+cat xxxx/.ssh/id_rsa.pub
+```
 
+然后将获取的密钥粘贴上去即可
+
+####  创建仓库
+
+![创建新仓库](https://github.com/WeimingSet/Learn/blob/master/git学习/image/截图 2025-07-28 22-07-39.png)
 
 ## 2. 工作区、暂存区、版本库
 
@@ -47,3 +57,10 @@ git diff --cached #查看暂存区与最后一次提交的差异
 - [ ] 将修改添加到暂存区：`git add a.txt`
 - [ ] 将暂存区的修改添加到版本库：`git commit -m "Update a.txt"`
 - [ ] 将本地版本库提交到远程仓库：`git push origin mian` 
+
+## 3. 创建本地仓库
+
+创建新目录
+
+初始化为git仓库：`git init`
+
